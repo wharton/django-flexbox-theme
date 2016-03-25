@@ -3,6 +3,9 @@
 - Created to be a <em>starting point</em>, not a complete UI framework.
 - Designed for Wharton, but easily customizable for other UPenn schools and departments.
 
+## Example Preview Image
+![alt tag](https://github.com/wharton/django-flexbox-theme/blob/master/django-flexbox-theme.png)
+
 ### Browser Support
 - This theme supports all browsers colored green on the <a href="http://caniuse.com/#search=flexbox">canIuse</a> site. For Example: this theme should not be used with IE 11 (and below) or Safari 8 (and below).
 
