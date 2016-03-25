@@ -39,7 +39,7 @@ The gulpfile includes tasks for SASS, PostCSS or both.
 - <a href="http://sass-lang.com">SASS</a>
 - <a href="http://postcss.org">PostCSS</a>
 
-### Guides
+### Guides & Features Included
 - <a href="http://philipwalton.github.io/solved-by-flexbox">"Solved by Flexbox" by Philip Walton</a>
 - <a href="https://github.com/HugoGiraudel/sass-boilerplate">SASS Boilerplate</a> by Hugo Giraudel
 - <a href="https://smacss.com">SMACSS</a>-like architecture
