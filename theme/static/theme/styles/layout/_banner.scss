@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+/**
+ *  Header
+ */
+header {
+    background-color: $penn-blue;
+    padding: 40px 80px 40px 80px;
+    @include breakpoint($small) {
+        padding: 15px;
+    }
+    .align-right {
+        z-index:9999;
+    }
+}
+
+/**
+ *  Logo
+ */
+#logo {
+    max-width: 100%;
+    max-height: 48px;
+    @include breakpoint($medium) {
+        width: 170px;
+    }
+    @include breakpoint($small) {
+        width: 135px;
+    }
+}
+
+/**
+ *  Navicon
+ */
+.navicon {
+    color: $white;
+    padding-right: 0px;
+    @include font-size(27px);
+    display:block;
+    cursor: pointer;
+    @include breakpoint($small) {
+        padding-right: 0px;
+        @include font-size(20px); 
+    }
+    @include on-event {
+        color: $penn-light-gray;
+    }
+}
+
+.navicon.navicon-position {
+    position: fixed;
+    top: 60px;
+    left:auto;
+    right: 200px;
+}
+
+/**
+ *  Banner Title
+ */
+.banner-title {
+    color: $white;
+    font-family: $penn-font-ultra-light;
+    @include font-size(20px);
+    line-height: 22px;
+    padding-left: 10px;
+    @include breakpoint($medium) {
+         @include font-size(17px);
+    }
+    @include breakpoint($small) {
+         @include font-size(13px);
+         padding-left: 8px;
+    }
+}

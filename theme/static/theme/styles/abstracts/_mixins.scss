@@ -1,0 +1,88 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide sass mixins.
+// -----------------------------------------------------------------------------
+
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+/// Make a context based selector a little more friendly
+/// @author Hugo Giraudel
+/// @param {String} $context
+@mixin when-inside($context) {
+  #{$context} & {
+    @content;
+  }
+}
+
+/// Custom Media Query
+/// @param {String} $width
+@mixin breakpoint($width) {
+    @media only screen and (max-width: $width) {
+        @content;
+    }
+}
+
+/// Custom Media Query
+/// @param {String} $height
+@mixin breakpoint-height($height) {
+    @media only screen and (max-height: $height) {
+        @content;
+    }
+}
+
+/// Calculate REM
+/// @param {String} $size   
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+/// Calculate ViewPort
+/// @param {String} $size 
+@function get-vw($target) { 
+  $vw-context: (1000*.01) * 1px;
+  @return ($target/$vw-context) * 1vw;
+}
+@mixin vw($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+  font-size: get-vw($size);
+}
+
+/**
+ * RGBA Background
+ * @param {String} $hexcolor, $opacity
+ */
+@mixin rgba-bg($hexcolor, $opacity: 1) {
+  @if $opacity == 1 {
+    background-color: $hexcolor;
+  }
+  @else {
+    background-color: $hexcolor;
+    background-color: rgba($hexcolor, $opacity); 
+  }
+}
+
+

@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+/**
+ * Button Base
+ */
+button {
+    border-radius: 3px;
+    border: 0px;
+    cursor: pointer;
+    font-family: $penn-font-light;
+    padding: 5px 12px 5px 12px;
+    @include on-event {
+       outline: 0px;
+       outline: none; 
+    } 
+}
+
+/**
+ * Small Placeholder
+ */
+%btn-small {
+   @include font-size(18px); 
+}
+
+/**
+ * Medium Placeholder
+ */
+%btn-medium {
+   @include font-size(24px); 
+}
+
+/**
+ * Large Placeholder
+ */
+%btn-large {
+    @include font-size(28px);
+}
+
+/**
+ * Blue Button Placeholder
+ */
+%btn-blue {
+    background-color: $penn-sky-blue; 
+    color: $white; 
+    @include on-event {
+       background-color: darken($penn-sky-blue, 10); 
+    }
+}
+
+/**
+ * Blue Small
+ */
+.btn-small {
+    @extend %btn-blue;
+    @extend %btn-small;
+}
+
+/**
+ * Button Medium
+ */
+.btn-medium {
+    @extend %btn-blue;
+    @extend %btn-medium;
+}
+
+/**
+ * Button Large
+ */
+.btn-large {
+    @extend %btn-blue;
+    @extend %btn-large;
+}

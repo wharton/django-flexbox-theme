@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+/**
+ *  Footer
+ */
+footer {
+    background-color: $penn-blue;
+    padding: 20px 80px 20px 80px;
+    color: $white;
+    @include breakpoint($small) {
+        padding: 15px;
+    }
+    .footer__list-title {
+        font-weight: 300;
+        color: $white;
+        @include font-size(15px);
+        @include breakpoint($small) {
+            @include font-size(13px);
+        }
+        font-family: $penn-font-bold;
+        text-transform: uppercase;
+    }
+}

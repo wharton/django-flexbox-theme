@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains all list classes
+// -----------------------------------------------------------------------------
+
+/*
+ * Setting Lists to a default of "zero"
+ */
+ul {
+    margin: 15px 0px 15px 0px;
+    padding: 0px;
+    li {
+        list-style-type: none;
+    }
+    @include breakpoint($medium) {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        @include font-size(15px);
+    }
+}
+
+ol {
+    margin: 15px 0px 15px 0px;
+    padding-left: 17px;
+    li {
+        list-style-type: decimal;
+    }
+    @include breakpoint($medium) {
+        @include font-size(15px);
+    }
+}

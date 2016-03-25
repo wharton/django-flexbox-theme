@@ -1,0 +1,49 @@
+// -----------------------------------------------------------------------------
+// This file all off-canvas styles. 
+// Off-canvas nav by Chris Coyier http://codepen.io/chriscoyier/pen/umEgv
+// -----------------------------------------------------------------------------
+
+/**
+ *  Off Canvas Container
+ */
+.off-canvas {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 0;
+  height: 100%;
+  background: $penn-light-blue;
+  overflow-y: auto;
+  transition: width 0.2s ease;
+  z-index: 9999999;
+
+}
+
+/**
+ *  Close Menu
+ */
+.close-menu {
+  display: none;
+}
+
+/**
+ *  On Click
+ */
+#off-canvas:target {
+  width: 20%;
+  @include breakpoint($large) {
+      width: 30%;
+  }
+  @include breakpoint($medium) {
+      width: 50%;
+  }
+  @include breakpoint($small) {
+      width: 50%;
+  }
+  .open-menu {
+     display: none; 
+  }
+  .close-menu {
+     display: block;
+  }
+}

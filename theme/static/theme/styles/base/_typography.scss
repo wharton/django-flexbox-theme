@@ -1,0 +1,105 @@
+// -----------------------------------------------------------------------------
+// This file contains all typography styles
+// -----------------------------------------------------------------------------
+
+/**
+ * Base Header Size
+ */
+$header-base-size: 35px; 
+ 
+/**
+* Global Font
+*/
+body {
+  color: $text-color;
+  font: normal 125% / 1.4 $penn-font-pal;
+}
+
+/**
+ * P, Headers
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $penn-font-bold;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/**
+ * Paragraphs
+ */
+p {
+  font-family: $penn-font-pal;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+  @include font-size(18px);
+  @include breakpoint($small) {
+        @include font-size(15px); 
+  }
+}
+
+/**
+ * Header Sizes
+ */
+h1 {
+    font-size: $header-base-size;
+    @include breakpoint($small) {
+       font-size: $header-base-size - 5; 
+    }
+}
+
+h2 {
+    font-size: $header-base-size - 5;
+    @include breakpoint($small) {
+       font-size: $header-base-size - 10; 
+    }
+}
+
+h3 {
+   font-size: $header-base-size - 10;
+    @include breakpoint($small) {
+       font-size: $header-base-size - 15; 
+    } 
+}
+
+h4 {
+    font-size: $header-base-size - 15;
+    @include breakpoint($small) {
+       font-size: $header-base-size - 20; 
+    }  
+}
+
+h5 {
+    font-size: $header-base-size - 20; 
+    @include breakpoint($small) {
+       font-size: $header-base-size - 25; 
+    }
+}
+
+h6 {
+    font-size: $header-base-size - 25;
+    @include breakpoint($small) {
+       font-size: $header-base-size - 27; 
+    } 
+}
+
+/**
+ * Weight
+ */
+strong {
+    font-weight: 700;
+}
+
+/**
+ * Italics
+ */
+em {
+    font-family: $penn-font-pal;
+    font-style: italic;
+}

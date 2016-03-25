@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible for this website & technology
+
+# TEAM
+
+     The Wharton School of Business - CAOS Team
+
+# PROJECT INFO
+
+    Title: Django Flexbox Theme
+    Version: 0.1
+    Components/Standards: Flexbox Grid Layout by Philip Walton, SASS Boilerplate by Hugo Giraudel, CSS3, HTML5, Responsive, jQuery, Font Awesome 

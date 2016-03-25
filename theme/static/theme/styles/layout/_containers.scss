@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains all global layout styles
+// -----------------------------------------------------------------------------
+
+/**
+ *  Body Class Styles
+ */
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 0px;
+  border-right: 1px solid darken($penn-off-white, 2%);
+  border-left: 1px solid darken($penn-off-white, 2%);
+  @include breakpoint($max-width - 1) {
+      border-right: 0px;
+      border-left: 0px;   
+  }
+}
+
+/**
+ * Main Site Content
+ */
+.site-content {
+    flex: 1;
+    padding: 10px 80px 40px 80px;
+    @include breakpoint($small) {
+       padding: 10px 15px 40px 15px;  
+    }
+}

@@ -1,0 +1,91 @@
+// -----------------------------------------------------------------------------
+// This file contains all the Form styles
+// -----------------------------------------------------------------------------
+
+/**
+ * AddOn
+ */
+.InputAddOn {
+  display: flex;
+  margin-bottom: 15px;
+  @include breakpoint($small) {
+    @include font-size(15px);     
+  }
+}
+
+/**
+ * AddOn Field
+ */
+.InputAddOn-field {
+  flex: 1;
+  /* field styles */
+}
+
+/**
+ * AddOn Span
+ */
+span.InputAddOn-item {
+    box-sizing: border-box;
+    line-height: 35px;
+    font-family: $penn-font-light;
+}
+
+/**
+ * AddOn Button
+ */
+.InputAddOn-item {
+  background: $penn-off-white;
+  border-radius: 0px;
+  color: $black;
+  font-family: $penn-font-light;
+  border: 1px solid darken($penn-off-white, 15%);
+  @include font-size(14px);
+  padding: 2px 15px 2px 15px;
+  @include breakpoint($small) {
+    @include font-size(11px);     
+  }
+}
+
+/**
+ * Input
+ */
+input {
+  @include on-event {
+    outline: 0;
+    outline: none;
+  }
+}
+
+/**
+ * Textarea
+ */
+textarea {
+    border-radius: 3px;
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid $penn-light-gray;
+    @include font-size(16px);
+    @include on-event {
+        outline: 0;
+        outline: none;
+    }
+}
+
+/**
+ * Select
+ */
+select {
+    background: none !important;
+    font-family: $penn-font-light;
+    @include font-size(17px)
+    @include breakpoint($small) {
+        @include font-size(14px);
+    }
+}
+
+/**
+ * Option
+ */
+option {
+    @extend select;
+}

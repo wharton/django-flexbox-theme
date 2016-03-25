@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// This file contains all base link styles
+// -----------------------------------------------------------------------------
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: $penn-bright-red;
+  text-decoration: none;
+  @include on-event {
+    text-decoration: underline;
+  }
+}
+
+/**
+ *  Breadcrumb
+ */
+.breadcrumb {
+    a {
+       color: $penn-light-gray; 
+    }
+}
+
+/**
+ *  Banner Title
+ */
+.banner-title {
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+/**
+ *  Footer
+ */
+footer {
+    a {
+        font-weight: 300;
+        color: $white;
+        @include font-size(15px);
+        @include breakpoint($small) {
+            @include font-size(13px);
+        }
+    }
+}
+
+/**
+ *  Off Canvas Nav
+ */
+.off-canvas {
+  a {
+        display: block;
+        @include font-size(18px);
+        font-family: $penn-font-pal;
+        border-bottom: 1px solid lighten($penn-light-blue, 6%);
+        color: $text-color;
+        padding: 12px;
+        @include breakpoint($small) {
+          @include font-size(15px);
+        }
+    }
+}
+
+
+a.off-canvas__title {
+    font-family: $penn-font-bold;
+}
+
+
+a.off-canvas-nav {
+    text-decoration: none;
+}

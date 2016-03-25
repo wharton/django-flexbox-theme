@@ -1,0 +1,47 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// Note on SASS defaults - http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variable_defaults_
+// -----------------------------------------------------------------------------
+
+/// Wharton Branding Colors
+$penn-blue: rgb(36,54,114) !default;
+$penn-red: rgb(152,30,50) !default;
+$penn-bright-red: rgb(223,82,78) !default;
+$penn-green: rgb(94,179,70) !default;
+$penn-violet: rgb(144,81,155) !default;
+$penn-sky-blue: rgb(14,118,188) !default;
+$penn-orange: rgb(243,117,58) !default;
+$penn-dark-gray: rgb(104,104,104) !default; 
+$penn-light-gray: rgb(170,170,170) !default;
+$penn-light-blue: rgb(176,200,223) !default;
+$penn-taupe: rgb(222,217,194) !default;
+$penn-off-white: rgb(243,243,244) !default;
+
+/// White & Black
+$white: rgb(255,255,255) !default;
+$black: rgb(0,0,0) !default;
+
+/// Breadcrumb Row
+$breadcrumb-bg: rgb(245,245,245) !default;
+$breadcrumb-text: rgb(170,170,170) !default;
+
+/// Copy text color
+$text-color: rgb(34, 34, 34) !default;
+
+// Default Theme Fonts
+$penn-font-bold: "HelveticaNeueW02-75Bold", Helvetica, sans-serif !default;
+$penn-font-light: "HelveticaNeueW02-45Ligh", Helvetica, sans-serif !default;
+$penn-font-pal: "Palatino Linotype", Palatino, "Times New Roman", Times, serif !default;
+$penn-font-ultra-light: "HelveticaNeueW01-UltLt", Helvetica, sans-serif !default;
+
+/*
+$penn-font-ultra-light: "HelveticaNeueW01-UltLt", Helvetica, sans-serif !default;
+$penn-font-medium: "HelveticaNeueW02-65Medi", "Helvetica Neue", Arial, Helvetica, sans-serif !default;
+$penn-font-roma: "HelveticaNeueW02-55Roma", Helvetica, sans-serif !default;
+*/
+
+/// Container's maximum width
+$max-width: 1450px !default;
+$large: 1250px !default;
+$medium: 850px !default;
+$small: 620px !default;

@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// This file contains all breadcrumb classes
+// -----------------------------------------------------------------------------
+
+/**
+ * Breadcrumb
+ */
+.breadcrumb {
+    background-color: $penn-off-white;
+    padding: 10px 80px 10px 80px;
+    font-family: $penn-font-light;
+    color: $penn-light-gray;
+    display: flex;
+    margin: 0px;
+    @include breakpoint($small) {
+       padding: 10px 15px 10px 15px; 
+    }
+}
+
+/**
+ * Breadcrumb Origin
+ */
+.breadcrumb__origin {
+  flex: 0;
+}
+
+/**
+ * Breadcrumb Addon
+ */
+.breadcrumb__addon {
+    padding-left: 8px; 
+    span {
+       @include font-size(15px); 
+    }
+}
+
+/**
+ * Breadcrumb arrow icon
+ */
+.breadcrumb__addon .fa {
+    @include font-size(14px);
+}
