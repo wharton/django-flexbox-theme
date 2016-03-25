@@ -1,6 +1,6 @@
 ## Django Flexbox Theme
-- A modern, lightweight & responsive CSS boilerplate based on Flexbox, designed for Wharton, and created for Django Applications.
-- Created to be a <em>starting point</em>, not a complete UI framework.
+- A modern, lightweight & responsive CSS starter kit based on Flexbox, designed for Wharton, and created for Django Applications.
+- Created to be a <strong>starting point</strong>, not a complete UI framework.
 - Designed for Wharton, but easily customizable for other UPenn schools and departments.
 
 ## Preview
