@@ -21,7 +21,7 @@
     <body class="site {% block body_class %}{% endblock body_class %}">
         {% block header %}
         <header class="grid {% block header_class %}{% endblock header_class %}">
-             {% block logo %}<a class="logo" href="https://www.wharton.upenn.edu"><img id="logo" src="{% static "img/wharton-logo.svg" %}"/></a>{% endblock logo %}
+             {% block logo %}<a class="logo" href="https://www.wharton.upenn.edu"><img id="logo" src="{% static "theme/img/wharton-logo.svg" %}"/></a>{% endblock logo %}
              {% block banner_title %}
              <div class="aligner">
                 <div class="aligner__item banner-title"><a href="{% url 'home' %}">Django Flexbox Theme</a></div>
@@ -236,7 +236,7 @@
         {% endblock footer %}
         {% block footer_js %}
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script src="{% static "js/min/scripts.js" %}"></script>
+        <script src="{% static "theme/js/min/scripts.js" %}"></script>
         {% endblock footer_js %}
         {% block footer_addon_js %}{% endblock footer_addon_js %}
     </body><!-- .end / BODY -->
