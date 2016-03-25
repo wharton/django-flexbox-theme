@@ -3,7 +3,7 @@
 - Created to be a <em>starting point</em>, not a complete UI framework.
 - Designed for Wharton, but easily customizable for other UPenn schools and departments.
 
-## Example Preview Image
+## Preview
 ![alt tag](https://github.com/wharton/django-flexbox-theme/blob/master/django-flexbox-theme.png)
 
 ### Browser Support
