@@ -14,7 +14,7 @@
 - Off-canvas nav
 
 #### 2) Flexbox
-Via Philip Walton's <a href="https://philipwalton.github.io/solved-by-flexbox">Solved by Flexbox</a> approach:
+Based on Philip Walton's <a href="https://philipwalton.github.io/solved-by-flexbox">Solved by Flexbox</a> approach:
 
 - Grid
 - Sticky Footer
