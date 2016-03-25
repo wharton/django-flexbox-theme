@@ -25,7 +25,7 @@ Via Philip Walton's <a href="https://philipwalton.github.io/solved-by-flexbox">S
 ### Django Helpers
 - Template Blocks
 - PIP Installable
-
+<pre><code>pip install git+https://github.com/wharton/Django-Flexbox-Theme</code></pre>
 
 ### Task Management
 
