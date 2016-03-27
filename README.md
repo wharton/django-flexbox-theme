@@ -44,7 +44,7 @@ Based on Philip Walton's <a href="https://philipwalton.github.io/solved-by-flexb
 
 #### 1) Gulp
 - <a href="http://gulpjs.com">Gulp</a>
-- An example gulpfile is included in this theme
+- An <a href="https://raw.githubusercontent.com/wharton/django-flexbox-theme/master/gulpfile.js">example gulpfile is included in this theme</a>
 
 #### 2) CSS Extensions
 The gulpfile includes tasks for SASS, PostCSS or both.
