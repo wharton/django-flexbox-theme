@@ -2,7 +2,9 @@
 // Contains all styles for the Styleguide Theme
 // -----------------------------------------------------------------------------
 
-
+/**
+ *  Styleguide
+ */
 .styleguide {
     .example {
         width: 100%;
@@ -19,6 +21,9 @@
     
 }
 
+/**
+ *  Example Div
+ */
 .example::after {
     content: '\00a0';
     display: block;

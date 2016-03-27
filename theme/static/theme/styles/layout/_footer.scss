@@ -23,3 +23,12 @@ footer {
         text-transform: uppercase;
     }
 }
+
+/**
+ *  Footer List
+ */
+footer {
+    ul li {
+        list-style-type: none;
+    }
+}

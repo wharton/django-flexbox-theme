@@ -54,7 +54,7 @@ footer {
         display: block;
         @include font-size(18px);
         font-family: $penn-font-pal;
-        border-bottom: 1px solid lighten($penn-light-blue, 6%);
+        border-bottom: 1px solid darken($penn-off-white, 8%);
         color: $text-color;
         padding: 12px;
         @include breakpoint($small) {
@@ -63,12 +63,8 @@ footer {
     }
 }
 
-
-a.off-canvas__title {
-    font-family: $penn-font-bold;
-}
-
-
-a.off-canvas-nav {
-    text-decoration: none;
+header {
+    .off-canvas-nav {
+        text-decoration: none;
+    }
 }

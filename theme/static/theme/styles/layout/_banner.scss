@@ -26,7 +26,7 @@ header {
         width: 170px;
     }
     @include breakpoint($small) {
-        width: 135px;
+        width: 125px;
     }
 }
 
@@ -48,13 +48,6 @@ header {
     }
 }
 
-.navicon.navicon-position {
-    position: fixed;
-    top: 60px;
-    left:auto;
-    right: 200px;
-}
-
 /**
  *  Banner Title
  */
@@ -69,6 +62,6 @@ header {
     }
     @include breakpoint($small) {
          @include font-size(13px);
-         padding-left: 8px;
+         padding-left: 5px;
     }
 }
