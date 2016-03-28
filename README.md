@@ -7,7 +7,7 @@
 ![alt tag](https://github.com/wharton/django-flexbox-theme/blob/master/preview.png)
 
 ### Browser Support
-- This theme supports all browsers colored green on the <a href="http://caniuse.com/#search=flexbox">canIuse</a> site. For Example: this theme should not be used with IE 11 (and below) or Safari 8 (and below). If you need something with more backwards compatibility, checkout <a href="https://github.com/wharton/django-base-theme">Django Base Theme</a>.
+- This theme supports all browsers colored green on the <a href="http://caniuse.com/#search=flexbox">canIuse</a> site. For Example: this theme should <em>not</em> be used with IE 11 (and below) or Safari 8 (and below). If you need something with more backwards compatibility, checkout <a href="https://github.com/wharton/django-base-theme">Django Base Theme</a>.
 
 ### Guides and/or Features Included
 - <a href="http://philipwalton.github.io/solved-by-flexbox">"Solved by Flexbox" by Philip Walton</a>
