@@ -3,7 +3,7 @@
 - Created to be a <strong>starting point</strong>, not a complete UI framework.
 - Easily <strong>customizable</strong>.
 
-## Preview
+### Preview
 This is just an example, not necessarily the official template of the theme.
 ![alt tag](https://github.com/wharton/django-flexbox-theme/blob/master/preview.png)
 
