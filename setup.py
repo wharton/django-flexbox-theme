@@ -27,7 +27,7 @@ setup(
     ]},
     include_package_data=True,
     license='BSD License',
-    description="A modern, lightweight CSS boilerplate based on Flexbox",
+    description="A modern CSS starter kit based on Flexbox",
     url='https://github.com/wharton/django-flexbox-theme',
     author='Chad Whitman - App Developer, The Wharton School',
     classifiers=[
