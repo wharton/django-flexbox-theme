@@ -17,18 +17,12 @@
 - <a href="http://cssguidelin.es">Harry Roberts' CSS Guidelines (here & there)</a>
 
 ### Components
-
-#### 1) General 
 - Typography
 - Buttons
 - Forms
 - Lists
 - Tables
 - Off-canvas nav
-
-#### 2) Flexbox
-Based on Philip Walton's <a href="https://philipwalton.github.io/solved-by-flexbox">Solved by Flexbox</a> approach:
-
 - Grid
 - Sticky Footer
 - Vertically Aligned Items
@@ -38,7 +32,7 @@ Based on Philip Walton's <a href="https://philipwalton.github.io/solved-by-flexb
 ### Django Helpers
 - Template Blocks
 - PIP Installable
-<pre><code>pip install git+https://github.com/wharton/Django-Flexbox-Theme</code></pre>
+<pre><code>pip install git+https://github.com/wharton/Django-Flexbox-Theme --upgrade</code></pre>
 
 ### Task Management
 
@@ -54,6 +48,9 @@ The gulpfile includes tasks for SASS, PostCSS or both.
 
 ### Font Icons
 - <a href="https://fortawesome.github.io/Font-Awesome">Font Awesome</a>
+
+### Performance
+Grade "A" score using the <a href="http://yslow.org">YSlow</a> Web Page Analyzer.
 
 ### Wharton Branding 
 - Wharton Logo (SVG Format)
