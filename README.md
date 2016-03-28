@@ -5,6 +5,7 @@
 
 ### Preview
 This is just an example, not necessarily the official template of the theme.
+
 ![alt tag](https://github.com/wharton/django-flexbox-theme/blob/master/preview.png)
 
 ### Browser Support
