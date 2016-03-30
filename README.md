@@ -40,7 +40,7 @@ This is just an example, not necessarily the official template of the theme.
 
 #### 1) Gulp
 - <a href="http://gulpjs.com">Gulp</a>
-- An <a href="https://raw.githubusercontent.com/wharton/django-flexbox-theme/master/gulpfile.js">example gulpfile is included in this theme</a>
+- An <a href="https://github.com/wharton/django-flexbox-theme/blob/master/gulpfile.js">example gulpfile is included in this theme</a>
 
 #### 2) CSS Extensions
 The gulpfile includes tasks for SASS, PostCSS or both.
