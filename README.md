@@ -11,8 +11,8 @@ This is <em>just an example</em>, not necessarily the official template of the t
 ### Browser Support
 - This theme supports all browsers colored green <a href="http://caniuse.com/#search=flexbox">here</a> (on the canIuse site). For Example: this theme should <em>not</em> be used with IE 11 (and below) or Safari 8 (and below). If you need something with more backwards compatibility, checkout <a href="https://github.com/wharton/django-base-theme">Django Base Theme</a>.
 
-### Guides and/or Features Included
-- <a href="http://philipwalton.github.io/solved-by-flexbox">"Solved by Flexbox"</a> by Philip Walton
+### Influenced By
+- <a href="http://philipwalton.github.io/solved-by-flexbox">Solved by Flexbox</a> by Philip Walton
 - <a href="https://github.com/HugoGiraudel/sass-boilerplate">SASS Boilerplate</a> by Hugo Giraudel
 - <a href="https://smacss.com">SMACSS</a>-like architecture
 - <a href="http://getbem.com/introduction">BEM</a> (naming convention only)
