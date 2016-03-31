@@ -14,7 +14,7 @@ This is <em>just an example</em>, not necessarily the official template of the t
 ### Grid By
 - <a href="http://philipwalton.github.io/solved-by-flexbox">Solved by Flexbox</a> by Philip Walton
 
-### Based On
+### Other Features and/or Guides Included
 - <a href="https://github.com/HugoGiraudel/sass-boilerplate">SASS Boilerplate</a> by Hugo Giraudel
 - <a href="https://smacss.com">SMACSS</a>-like architecture
 - <a href="http://getbem.com/introduction">BEM</a> (naming convention only)
