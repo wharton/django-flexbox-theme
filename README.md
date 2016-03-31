@@ -16,7 +16,7 @@ This is <em>just an example</em>, not necessarily the official template of the t
 
 ### Other Features and/or Guides Included
 - A combo of <a href="https://github.com/HugoGiraudel/sass-boilerplate">SASS Boilerplate</a> by Hugo Giraudel and 
-<a href="https://smacss.com">SMACSS</a>-like architecture by Jonathan Snook
+<a href="https://smacss.com">SMACSS</a> architecture by Jonathan Snook (the former is similar to the latter in many ways already)
 - <a href="http://getbem.com/introduction">BEM</a> (naming convention only)
 - <a href="http://cssguidelin.es">Harry Roberts' CSS Guidelines</a> (here & there)
 
