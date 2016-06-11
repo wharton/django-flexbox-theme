@@ -1,5 +1,5 @@
 ## Django Flexbox Theme
-- A <strong>modern</strong>, <strong>lightweight</strong> & <strong>responsive</strong> style guide based on <strong>Flexbox</strong>, designed for <strong>Wharton CAOS</strong> apps, and created for <strong>Django</strong> projects.
+- A <strong>modern</strong>, <strong>lightweight</strong> & <strong>responsive</strong> styleguide based on <strong>Flexbox</strong>, designed for <strong>Wharton CAOS</strong> apps, and created for <strong>Django</strong> projects.
 - Created to be a <strong>starting point</strong> or <strong>guide</strong>, not a complete UI framework (e.g., bootstrap).
 - Easily <strong>customizable</strong>.
 
