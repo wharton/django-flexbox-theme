@@ -4,12 +4,12 @@
 - Easily <strong>customizable</strong>.
 
 ### Preview
-This is <em>just an example</em>, not necessarily the official template of the theme.
+This is <strong>just an example</strong>, not necessarily the official template of the theme.
 
 ![alt tag](https://github.com/wharton/django-flexbox-theme/blob/master/preview.png)
 
 ### Browser Support
-- This theme supports all browsers colored green <a href="http://caniuse.com/#search=flexbox">here</a> (on the canIuse site). For Example: this theme should <em>not</em> be used with IE 11 (and below) or Safari 8 (and below). If you need something with more backwards compatibility, checkout <a href="https://github.com/wharton/django-base-theme">Django Base Theme</a>.
+- This styleguide supports all browsers colored green <a href="http://caniuse.com/#search=flexbox">here</a> (on the canIuse site). For Example: this theme should <em>not</em> be used with IE 11 (and below) or Safari 8 (and below). If you need something with more backwards compatibility, checkout <a href="https://github.com/wharton/django-base-theme">Django Base Theme</a>.
 
 ### Grid By
 - <a href="http://philipwalton.github.io/solved-by-flexbox">Solved by Flexbox</a> by Philip Walton
@@ -31,7 +31,6 @@ This is <em>just an example</em>, not necessarily the official template of the t
 - Sticky Footer
 - Vertically Aligned Items
 - Input Addons
-
 
 ### Django Helpers
 - Template Blocks
